@@ -1,0 +1,79 @@
+Home / Your Company
+
+Fellow
+Ari
+Maya
+Leo
+
+COMPANY · DATA ROOM
+
+Your Company
+
+Evidence, working assets, and the agents that can create what is missing.
+
+Eve responded without using the registered skill — needs review
+
+01
+Foundation
+02
+Brand
+03
+Agents
+04
+Growth
+05
+Finance
+06
+Operations
+
+MESSAGINGARCHITECTURE
+
+Messaging architecture
+missing
+
+gtm · Marketing & Comms
+
+CUSTOMERDISCOVERY
+
+Customer Discovery
+in progress
+
+product · Customer Discovery
+
+Matched: Interview Synth Eve · Product
+
+Generate it
+
+Eve session wrun_01M0578207C4V2VBFE4ZXWKAS4
+
+Eve responded without using the registered skill — needs review
+
+I can do that—but the actual customer interview notes weren’t included in this conversation.
+
+Please paste/upload the notes (preferred), and include:
+- Interviewer name
+- Customer role (buyer/user/admin, etc.)
+- Industry/company (if applicable)
+- Interview date(s)
+- The raw notes transcript/text (or bullets)
+
+**Preferred format:**
+- `Interview 1 — <date> — <customer role/industry>`
+  - Notes:
+    - …
+- `Interview 2 — <date> — <customer role/industry>`
+  - Notes:
+    - …
+
+Once you share them, I’ll synthesize them into: problem/goals, themed pain points, current alternatives, decision criteria/buying process, objections/risks, JTBD & personas, open questions, and product/messaging implications.
+
+PITCHDECK
+
+Pitch deck
+missing
+
+investments · Narrative & Model
+
+Matched: Deck Drafter Eve · Investments
+
+Generate it

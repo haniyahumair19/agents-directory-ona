@@ -1,0 +1,584 @@
+[
+  {
+    "agentName": "app",
+    "durationMs": 9164,
+    "sessionId": "wrun_01M057XWGMT488X7HK6SK1TPTT",
+    "sessionIds": [
+      "wrun_01M057XWGMT488X7HK6SK1TPTT",
+      "wrun_01M057XYZ9ZAV30CBTTFZZWCAK"
+    ],
+    "spanCount": 19,
+    "spans": [
+      {
+        "attributes": {
+          "agent.framework.name": "eve",
+          "agent.framework.version": "0.35.0",
+          "agent.name": "app",
+          "agent.root.session.id": "wrun_01M057XWGMT488X7HK6SK1TPTT",
+          "agent.session.id": "wrun_01M057XWGMT488X7HK6SK1TPTT",
+          "agent.session.window": 0,
+          "agent.trace.schema.version": 1,
+          "operation.name": "eve_agent"
+        },
+        "durationMs": 0.065,
+        "endTimeNs": "1786882487068065000",
+        "events": [
+          {
+            "attributes": {},
+            "name": "session.started",
+            "timeNs": "1786882487068063834"
+          }
+        ],
+        "kind": 1,
+        "name": "agent.session",
+        "parentSpanId": null,
+        "scope": "eve.agent",
+        "spanId": "0fede70cf54338f2",
+        "startTimeNs": "1786882487068000000",
+        "statusCode": 0,
+        "statusMessage": null
+      },
+      {
+        "attributes": {
+          "agent.channel.delivery.id": "2642c7d0-4af8-491f-9e07-22a38e485563",
+          "agent.channel.delivery.outcome": "completed",
+          "agent.channel.kind": "http",
+          "agent.channel.name": "eve",
+          "agent.framework.name": "eve",
+          "agent.framework.version": "0.35.0",
+          "agent.name": "app",
+          "agent.root.session.id": "wrun_01M057XWGMT488X7HK6SK1TPTT",
+          "agent.session.id": "wrun_01M057XWGMT488X7HK6SK1TPTT",
+          "agent.session.window": 0,
+          "agent.turn.id": "turn_0",
+          "agent.turn.sequence": 0,
+          "operation.name": "eve_agent.consumer"
+        },
+        "durationMs": 9157,
+        "endTimeNs": "1786882496232000000",
+        "events": [
+          {
+            "attributes": {},
+            "name": "channel.delivery.started",
+            "timeNs": "1786882487075000000"
+          },
+          {
+            "attributes": {},
+            "name": "channel.delivery.completed",
+            "timeNs": "1786882496232000000"
+          }
+        ],
+        "kind": 5,
+        "name": "agent.channel.delivery",
+        "parentSpanId": "0fede70cf54338f2",
+        "scope": "eve.agent",
+        "spanId": "4321a1b5a4539d40",
+        "startTimeNs": "1786882487075000000",
+        "statusCode": 0,
+        "statusMessage": null
+      },
+      {
+        "attributes": {
+          "agent.framework.name": "eve",
+          "agent.framework.version": "0.35.0",
+          "agent.name": "app",
+          "agent.root.session.id": "wrun_01M057XWGMT488X7HK6SK1TPTT",
+          "agent.session.id": "wrun_01M057XWGMT488X7HK6SK1TPTT",
+          "agent.session.window": 0,
+          "agent.turn.id": "turn_0",
+          "agent.turn.sequence": 0,
+          "operation.name": "eve_agent"
+        },
+        "durationMs": 9157,
+        "endTimeNs": "1786882496232000000",
+        "events": [
+          {
+            "attributes": {},
+            "name": "turn.started",
+            "timeNs": "1786882487075000000"
+          },
+          {
+            "attributes": {},
+            "name": "turn.completed",
+            "timeNs": "1786882496232000000"
+          }
+        ],
+        "kind": 1,
+        "name": "agent.turn",
+        "parentSpanId": "0fede70cf54338f2",
+        "scope": "eve.agent",
+        "spanId": "22d7f757bd47a80b",
+        "startTimeNs": "1786882487075000000",
+        "statusCode": 0,
+        "statusMessage": null
+      },
+      {
+        "attributes": {
+          "gen_ai.agent.name": "app",
+          "gen_ai.operation.name": "chat",
+          "gen_ai.provider.name": "openai.responses",
+          "gen_ai.request.model": "gpt-5.4-nano",
+          "agent.usage.input_tokens": 7086,
+          "agent.usage.output_tokens": 213,
+          "gen_ai.usage.cache_read.input_tokens": 6784,
+          "gen_ai.usage.cache_creation.input_tokens": 0,
+          "gen_ai.response.finish_reasons": [
+            "tool-calls"
+          ],
+          "operation.name": "eve_agent"
+        },
+        "durationMs": 2165.673084,
+        "endTimeNs": "1786882489245673084",
+        "events": [],
+        "kind": 1,
+        "name": "chat gpt-5.4-nano",
+        "parentSpanId": "db32972a3eee8d5a",
+        "scope": "eve.agent",
+        "spanId": "32492206ab80c24a",
+        "startTimeNs": "1786882487080000000",
+        "statusCode": 0,
+        "statusMessage": null
+      },
+      {
+        "attributes": {
+          "ai.operation.name": "ai.streamText",
+          "ai.provider.name": "openai.responses",
+          "ai.request.model": "gpt-5.4-nano",
+          "operation.name": "eve_agent"
+        },
+        "durationMs": 2168.50275,
+        "endTimeNs": "1786882489248502750",
+        "events": [],
+        "kind": 1,
+        "name": "ai.streamText",
+        "parentSpanId": "3992a5de36ef4656",
+        "scope": "eve.agent",
+        "spanId": "db32972a3eee8d5a",
+        "startTimeNs": "1786882487080000000",
+        "statusCode": 0,
+        "statusMessage": null
+      },
+      {
+        "attributes": {
+          "agent.session.id": "wrun_01M057XWGMT488X7HK6SK1TPTT",
+          "agent.framework.name": "eve",
+          "agent.framework.version": "0.35.0",
+          "agent.root.session.id": "wrun_01M057XWGMT488X7HK6SK1TPTT",
+          "agent.step.attempt": 0,
+          "agent.step.index": 0,
+          "agent.turn.id": "turn_0",
+          "agent.name": "app",
+          "agent.model.id": "gpt-5.4-nano",
+          "agent.model.provider": "openai.responses",
+          "agent.usage.input_tokens": 7086,
+          "agent.usage.output_tokens": 213,
+          "gen_ai.usage.cache_read.input_tokens": 6784,
+          "gen_ai.usage.cache_creation.input_tokens": 0,
+          "operation.name": "eve_agent"
+        },
+        "durationMs": 2168.54375,
+        "endTimeNs": "1786882489248543750",
+        "events": [
+          {
+            "attributes": {},
+            "name": "step.started",
+            "timeNs": "1786882487080024917"
+          },
+          {
+            "attributes": {},
+            "name": "step.completed",
+            "timeNs": "1786882489248536542"
+          }
+        ],
+        "kind": 1,
+        "name": "agent.step",
+        "parentSpanId": "22d7f757bd47a80b",
+        "scope": "eve.agent",
+        "spanId": "3992a5de36ef4656",
+        "startTimeNs": "1786882487080000000",
+        "statusCode": 0,
+        "statusMessage": null
+      },
+      {
+        "attributes": {
+          "agent.action.call_id": "call_nI0hutpgS81i7fGpgMNrB8g9",
+          "agent.action.kind": "subagent-call",
+          "agent.action.name": "product",
+          "agent.framework.name": "eve",
+          "agent.framework.version": "0.35.0",
+          "agent.root.session.id": "wrun_01M057XWGMT488X7HK6SK1TPTT",
+          "agent.session.id": "wrun_01M057XWGMT488X7HK6SK1TPTT",
+          "agent.step.attempt": 0,
+          "agent.step.index": 0,
+          "agent.turn.id": "turn_0",
+          "agent.action.outcome": "completed",
+          "agent.usage.input_tokens": 14121,
+          "agent.usage.output_tokens": 305,
+          "gen_ai.usage.cache_read.input_tokens": 12544,
+          "gen_ai.usage.cache_creation.input_tokens": 0,
+          "operation.name": "eve_agent"
+        },
+        "durationMs": 5011,
+        "endTimeNs": "1786882494105000000",
+        "events": [],
+        "kind": 1,
+        "name": "agent.action",
+        "parentSpanId": "22d7f757bd47a80b",
+        "scope": "eve.agent",
+        "spanId": "b4187d47035fb51a",
+        "startTimeNs": "1786882489094000000",
+        "statusCode": 0,
+        "statusMessage": null
+      },
+      {
+        "attributes": {
+          "agent.framework.name": "eve",
+          "agent.framework.version": "0.35.0",
+          "agent.name": "product",
+          "agent.parent.call_id": "call_nI0hutpgS81i7fGpgMNrB8g9",
+          "agent.parent.session.id": "wrun_01M057XWGMT488X7HK6SK1TPTT",
+          "agent.parent.turn.id": "turn_0",
+          "agent.subagent.name": "product",
+          "agent.root.session.id": "wrun_01M057XWGMT488X7HK6SK1TPTT",
+          "agent.session.id": "wrun_01M057XYZ9ZAV30CBTTFZZWCAK",
+          "agent.session.window": 0,
+          "agent.turn.id": "turn_0",
+          "agent.turn.sequence": 0,
+          "operation.name": "eve_agent"
+        },
+        "durationMs": 4352,
+        "endTimeNs": "1786882493946000000",
+        "events": [
+          {
+            "attributes": {},
+            "name": "turn.started",
+            "timeNs": "1786882489594000000"
+          },
+          {
+            "attributes": {},
+            "name": "turn.completed",
+            "timeNs": "1786882493946000000"
+          }
+        ],
+        "kind": 1,
+        "name": "agent.turn",
+        "parentSpanId": "b4187d47035fb51a",
+        "scope": "eve.agent",
+        "spanId": "bab6fc456cf70728",
+        "startTimeNs": "1786882489594000000",
+        "statusCode": 0,
+        "statusMessage": null
+      },
+      {
+        "attributes": {
+          "gen_ai.agent.name": "product",
+          "gen_ai.operation.name": "chat",
+          "gen_ai.provider.name": "openai.responses",
+          "gen_ai.request.model": "gpt-5.4-nano",
+          "agent.usage.input_tokens": 6961,
+          "agent.usage.output_tokens": 21,
+          "gen_ai.usage.cache_read.input_tokens": 5760,
+          "gen_ai.usage.cache_creation.input_tokens": 0,
+          "gen_ai.response.finish_reasons": [
+            "tool-calls"
+          ],
+          "operation.name": "eve_agent"
+        },
+        "durationMs": 1298.922167,
+        "endTimeNs": "1786882490900922167",
+        "events": [],
+        "kind": 1,
+        "name": "chat gpt-5.4-nano",
+        "parentSpanId": "a53a22281772f923",
+        "scope": "eve.agent",
+        "spanId": "e61fa53ed3659a9f",
+        "startTimeNs": "1786882489602000000",
+        "statusCode": 0,
+        "statusMessage": null
+      },
+      {
+        "attributes": {
+          "ai.operation.name": "ai.streamText",
+          "ai.provider.name": "openai.responses",
+          "ai.request.model": "gpt-5.4-nano",
+          "operation.name": "eve_agent"
+        },
+        "durationMs": 1306.014833,
+        "endTimeNs": "1786882490908014833",
+        "events": [],
+        "kind": 1,
+        "name": "ai.streamText",
+        "parentSpanId": "fa3b3eaa8a3a86f1",
+        "scope": "eve.agent",
+        "spanId": "a53a22281772f923",
+        "startTimeNs": "1786882489602000000",
+        "statusCode": 0,
+        "statusMessage": null
+      },
+      {
+        "attributes": {
+          "agent.session.id": "wrun_01M057XYZ9ZAV30CBTTFZZWCAK",
+          "agent.framework.name": "eve",
+          "agent.framework.version": "0.35.0",
+          "agent.root.session.id": "wrun_01M057XWGMT488X7HK6SK1TPTT",
+          "agent.step.attempt": 0,
+          "agent.step.index": 0,
+          "agent.turn.id": "turn_0",
+          "agent.name": "product",
+          "agent.model.id": "gpt-5.4-nano",
+          "agent.model.provider": "openai.responses",
+          "agent.usage.input_tokens": 6961,
+          "agent.usage.output_tokens": 21,
+          "gen_ai.usage.cache_read.input_tokens": 5760,
+          "gen_ai.usage.cache_creation.input_tokens": 0,
+          "operation.name": "eve_agent"
+        },
+        "durationMs": 1306.053667,
+        "endTimeNs": "1786882490908053667",
+        "events": [
+          {
+            "attributes": {},
+            "name": "step.started",
+            "timeNs": "1786882489602025792"
+          },
+          {
+            "attributes": {},
+            "name": "step.completed",
+            "timeNs": "1786882490908045750"
+          }
+        ],
+        "kind": 1,
+        "name": "agent.step",
+        "parentSpanId": "bab6fc456cf70728",
+        "scope": "eve.agent",
+        "spanId": "fa3b3eaa8a3a86f1",
+        "startTimeNs": "1786882489602000000",
+        "statusCode": 0,
+        "statusMessage": null
+      },
+      {
+        "attributes": {
+          "agent.action.call_id": "call_OyPIFTUhVIZIQnqcEhY4V6eT",
+          "agent.action.kind": "load-skill",
+          "agent.action.name": "load_skill",
+          "agent.framework.name": "eve",
+          "agent.framework.version": "0.35.0",
+          "agent.root.session.id": "wrun_01M057XWGMT488X7HK6SK1TPTT",
+          "agent.session.id": "wrun_01M057XYZ9ZAV30CBTTFZZWCAK",
+          "agent.step.attempt": 0,
+          "agent.step.index": 0,
+          "agent.turn.id": "turn_0",
+          "agent.action.outcome": "completed",
+          "operation.name": "eve_agent"
+        },
+        "durationMs": 115,
+        "endTimeNs": "1786882490904000000",
+        "events": [],
+        "kind": 1,
+        "name": "agent.action",
+        "parentSpanId": "bab6fc456cf70728",
+        "scope": "eve.agent",
+        "spanId": "94c47db0b9c36903",
+        "startTimeNs": "1786882490789000000",
+        "statusCode": 0,
+        "statusMessage": null
+      },
+      {
+        "attributes": {
+          "gen_ai.operation.name": "execute_tool",
+          "gen_ai.tool.call.id": "call_OyPIFTUhVIZIQnqcEhY4V6eT",
+          "gen_ai.tool.name": "load_skill",
+          "operation.name": "eve_agent"
+        },
+        "durationMs": 0,
+        "endTimeNs": "1786882490902000000",
+        "events": [],
+        "kind": 1,
+        "name": "ai.toolCall",
+        "parentSpanId": "94c47db0b9c36903",
+        "scope": "eve.agent",
+        "spanId": "dca09e86505aaa12",
+        "startTimeNs": "1786882490902000000",
+        "statusCode": 0,
+        "statusMessage": null
+      },
+      {
+        "attributes": {
+          "gen_ai.agent.name": "product",
+          "gen_ai.operation.name": "chat",
+          "gen_ai.provider.name": "openai.responses",
+          "gen_ai.request.model": "gpt-5.4-nano",
+          "agent.usage.input_tokens": 7160,
+          "agent.usage.output_tokens": 284,
+          "gen_ai.usage.cache_read.input_tokens": 6784,
+          "gen_ai.usage.cache_creation.input_tokens": 0,
+          "gen_ai.response.finish_reasons": [
+            "stop"
+          ],
+          "operation.name": "eve_agent"
+        },
+        "durationMs": 2619.727875,
+        "endTimeNs": "1786882493929727875",
+        "events": [],
+        "kind": 1,
+        "name": "chat gpt-5.4-nano",
+        "parentSpanId": "31fc43678c978c16",
+        "scope": "eve.agent",
+        "spanId": "426411969db7b453",
+        "startTimeNs": "1786882491310000000",
+        "statusCode": 0,
+        "statusMessage": null
+      },
+      {
+        "attributes": {
+          "ai.operation.name": "ai.streamText",
+          "ai.provider.name": "openai.responses",
+          "ai.request.model": "gpt-5.4-nano",
+          "operation.name": "eve_agent"
+        },
+        "durationMs": 2627.929,
+        "endTimeNs": "1786882493937929000",
+        "events": [],
+        "kind": 1,
+        "name": "ai.streamText",
+        "parentSpanId": "50225b9e1dd49bd7",
+        "scope": "eve.agent",
+        "spanId": "31fc43678c978c16",
+        "startTimeNs": "1786882491310000000",
+        "statusCode": 0,
+        "statusMessage": null
+      },
+      {
+        "attributes": {
+          "agent.session.id": "wrun_01M057XYZ9ZAV30CBTTFZZWCAK",
+          "agent.framework.name": "eve",
+          "agent.framework.version": "0.35.0",
+          "agent.root.session.id": "wrun_01M057XWGMT488X7HK6SK1TPTT",
+          "agent.step.attempt": 0,
+          "agent.step.index": 1,
+          "agent.turn.id": "turn_0",
+          "agent.name": "product",
+          "agent.model.id": "gpt-5.4-nano",
+          "agent.model.provider": "openai.responses",
+          "agent.usage.input_tokens": 7160,
+          "agent.usage.output_tokens": 284,
+          "gen_ai.usage.cache_read.input_tokens": 6784,
+          "gen_ai.usage.cache_creation.input_tokens": 0,
+          "operation.name": "eve_agent"
+        },
+        "durationMs": 2628.103042,
+        "endTimeNs": "1786882493938103042",
+        "events": [
+          {
+            "attributes": {},
+            "name": "step.started",
+            "timeNs": "1786882491310116333"
+          },
+          {
+            "attributes": {},
+            "name": "step.completed",
+            "timeNs": "1786882493938049083"
+          }
+        ],
+        "kind": 1,
+        "name": "agent.step",
+        "parentSpanId": "bab6fc456cf70728",
+        "scope": "eve.agent",
+        "spanId": "50225b9e1dd49bd7",
+        "startTimeNs": "1786882491310000000",
+        "statusCode": 0,
+        "statusMessage": null
+      },
+      {
+        "attributes": {
+          "gen_ai.agent.name": "app",
+          "gen_ai.operation.name": "chat",
+          "gen_ai.provider.name": "openai.responses",
+          "gen_ai.request.model": "gpt-5.4-nano",
+          "agent.usage.input_tokens": 7589,
+          "agent.usage.output_tokens": 148,
+          "gen_ai.usage.cache_read.input_tokens": 6784,
+          "gen_ai.usage.cache_creation.input_tokens": 0,
+          "gen_ai.response.finish_reasons": [
+            "stop"
+          ],
+          "operation.name": "eve_agent"
+        },
+        "durationMs": 2074.366417,
+        "endTimeNs": "1786882496214366417",
+        "events": [],
+        "kind": 1,
+        "name": "chat gpt-5.4-nano",
+        "parentSpanId": "227e5e78bd9595c6",
+        "scope": "eve.agent",
+        "spanId": "4685930047938fd7",
+        "startTimeNs": "1786882494140000000",
+        "statusCode": 0,
+        "statusMessage": null
+      },
+      {
+        "attributes": {
+          "ai.operation.name": "ai.streamText",
+          "ai.provider.name": "openai.responses",
+          "ai.request.model": "gpt-5.4-nano",
+          "operation.name": "eve_agent"
+        },
+        "durationMs": 2077.109583,
+        "endTimeNs": "1786882496217109583",
+        "events": [],
+        "kind": 1,
+        "name": "ai.streamText",
+        "parentSpanId": "25f82e2d4ce0335e",
+        "scope": "eve.agent",
+        "spanId": "227e5e78bd9595c6",
+        "startTimeNs": "1786882494140000000",
+        "statusCode": 0,
+        "statusMessage": null
+      },
+      {
+        "attributes": {
+          "agent.session.id": "wrun_01M057XWGMT488X7HK6SK1TPTT",
+          "agent.framework.name": "eve",
+          "agent.framework.version": "0.35.0",
+          "agent.root.session.id": "wrun_01M057XWGMT488X7HK6SK1TPTT",
+          "agent.step.attempt": 0,
+          "agent.step.index": 1,
+          "agent.turn.id": "turn_0",
+          "agent.name": "app",
+          "agent.model.id": "gpt-5.4-nano",
+          "agent.model.provider": "openai.responses",
+          "agent.usage.input_tokens": 7589,
+          "agent.usage.output_tokens": 148,
+          "gen_ai.usage.cache_read.input_tokens": 6784,
+          "gen_ai.usage.cache_creation.input_tokens": 0,
+          "operation.name": "eve_agent"
+        },
+        "durationMs": 2077.156459,
+        "endTimeNs": "1786882496217156459",
+        "events": [
+          {
+            "attributes": {},
+            "name": "step.started",
+            "timeNs": "1786882494140031959"
+          },
+          {
+            "attributes": {},
+            "name": "step.completed",
+            "timeNs": "1786882496217146834"
+          }
+        ],
+        "kind": 1,
+        "name": "agent.step",
+        "parentSpanId": "22d7f757bd47a80b",
+        "scope": "eve.agent",
+        "spanId": "25f82e2d4ce0335e",
+        "startTimeNs": "1786882494140000000",
+        "statusCode": 0,
+        "statusMessage": null
+      }
+    ],
+    "startedAt": "2026-08-16T12:14:47.068Z",
+    "traceId": "9c98e8ad99fbd9eec42eeacc7c7f2154",
+    "window": 0
+  }
+]

@@ -1,0 +1,19 @@
+{
+  "detector": {
+    "missSession": "wrun_01M0578207C4V2VBFE4ZXWKAS4",
+    "missSkills": [],
+    "missWouldLoadInterviewSynthesis": false,
+    "hitChild": "wrun_01M057XFF0F4ES0E674545W97H",
+    "hitSkills": [
+      "interview-synthesis"
+    ],
+    "hitWouldLoadInterviewSynthesis": true
+  },
+  "convexBefore": "missing",
+  "convexAfter": "missing",
+  "lastUpdatedBy": null,
+  "pageHasReviewNote": true,
+  "pageShowsDone": false,
+  "pageShowsInProgress": true,
+  "silentlyMarkedDone": false
+}

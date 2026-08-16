@@ -1,0 +1,50 @@
+[
+  {
+    "run": 1,
+    "sessionId": "wrun_01M057X8KGTGBT64TTQVM0W8BY",
+    "loadedInterviewSynthesis": true,
+    "evidence": {
+      "sessionId": "wrun_01M057X8KGTGBT64TTQVM0W8BY",
+      "harness": "product",
+      "childId": "wrun_01M057XFF0F4ES0E674545W97H",
+      "skills": [
+        "interview-synthesis"
+      ]
+    },
+    "listedTrace": {
+      "error": "SyntaxError: Unexpected token 'T', \"TRACE     \"... is not valid JSON"
+    }
+  },
+  {
+    "run": 2,
+    "sessionId": "wrun_01M057XWGMT488X7HK6SK1TPTT",
+    "loadedInterviewSynthesis": true,
+    "evidence": {
+      "sessionId": "wrun_01M057XWGMT488X7HK6SK1TPTT",
+      "harness": "product",
+      "childId": "wrun_01M057XYZ9ZAV30CBTTFZZWCAK",
+      "skills": [
+        "interview-synthesis"
+      ]
+    },
+    "listedTrace": {
+      "error": "SyntaxError: Unexpected token 'T', \"TRACE     \"... is not valid JSON"
+    }
+  },
+  {
+    "run": 3,
+    "sessionId": "wrun_01M057YBJ3WEDS5EXZ6Z0G39V4",
+    "loadedInterviewSynthesis": true,
+    "evidence": {
+      "sessionId": "wrun_01M057YBJ3WEDS5EXZ6Z0G39V4",
+      "harness": "product",
+      "childId": "wrun_01M057YDXTW9HX15Y8E8E190DE",
+      "skills": [
+        "interview-synthesis"
+      ]
+    },
+    "listedTrace": {
+      "error": "SyntaxError: Unexpected token 'T', \"TRACE     \"... is not valid JSON"
+    }
+  }
+]

@@ -1,0 +1,17 @@
+[
+  {
+    "id": "discovery",
+    "testId": "run-customerDiscovery",
+    "expectHarness": "product",
+    "expectSkill": "interview-synthesis",
+    "label": "Customer Discovery",
+    "sessionId": "wrun_01M0578207C4V2VBFE4ZXWKAS4",
+    "evidence": {
+      "sessionId": "wrun_01M0578207C4V2VBFE4ZXWKAS4",
+      "harness": "product",
+      "childId": "wrun_01M05784CR6JG5NMEV1ZPCA79H",
+      "skills": []
+    },
+    "ok": false
+  }
+]

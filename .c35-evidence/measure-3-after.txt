@@ -1,0 +1,64 @@
+Home / Your Company
+
+Fellow
+Ari
+Maya
+Leo
+
+COMPANY · DATA ROOM
+
+Your Company
+
+Evidence, working assets, and the agents that can create what is missing.
+
+01
+Foundation
+02
+Brand
+03
+Agents
+04
+Growth
+05
+Finance
+06
+Operations
+
+MESSAGINGARCHITECTURE
+
+Messaging architecture
+missing
+
+gtm · Marketing & Comms
+
+CUSTOMERDISCOVERY
+
+Customer Discovery
+done
+
+product · Customer Discovery
+
+Updated by Interview Synth · 16 Aug 2026, 12:15:18 UTC
+
+Matched: Interview Synth Eve · Product
+
+Eve session wrun_01M057YBJ3WEDS5EXZ6Z0G39V4
+
+I routed this to the **product** harness (customer interview synthesis).
+
+To proceed, I need the actual interview notes. Please either:
+1) **Paste the notes text here**, or  
+2) Tell me the **filename/path(s in your workspace** (e.g., `/workspace/...`) where the notes live.
+
+Once I have that, I’ll synthesize them into themes: key pain points, JTBD, current workarounds, triggers (“why now”), segments/personas, objections, and proposed MVP scope—all evidence-grounded to your notes.
+
+PITCHDECK
+
+Pitch deck
+missing
+
+investments · Narrative & Model
+
+Matched: Deck Drafter Eve · Investments
+
+Generate it
