@@ -1,0 +1,11 @@
+{
+  "cloudBefore": {
+    "status": "missing",
+    "lastUpdatedBy": null
+  },
+  "cloudAfter": {
+    "status": "in_progress",
+    "lastUpdatedBy": "Eve responded without using the registered skill — needs review"
+  },
+  "mutationLive": true
+}

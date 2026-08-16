@@ -1,0 +1,40 @@
+{
+  "attempts": [
+    {
+      "i": 1,
+      "sessionId": "wrun_01M05AJ6AY2ZWPQ127AC9X5P40",
+      "loaded": true,
+      "harness": "product",
+      "skills": [
+        "interview-synthesis"
+      ],
+      "cloudStatus": "done",
+      "lastUpdatedBy": "Interview Synth",
+      "synthesis": false
+    },
+    {
+      "i": 2,
+      "sessionId": "wrun_01M05AJT3FTP0GTZV5SN6K8KR8",
+      "loaded": true,
+      "harness": "product",
+      "skills": [
+        "interview-synthesis"
+      ],
+      "cloudStatus": "done",
+      "lastUpdatedBy": "Interview Synth",
+      "synthesis": true
+    }
+  ],
+  "success": {
+    "i": 2,
+    "sessionId": "wrun_01M05AJT3FTP0GTZV5SN6K8KR8",
+    "loaded": true,
+    "harness": "product",
+    "skills": [
+      "interview-synthesis"
+    ],
+    "cloudStatus": "done",
+    "lastUpdatedBy": "Interview Synth",
+    "synthesis": true
+  }
+}

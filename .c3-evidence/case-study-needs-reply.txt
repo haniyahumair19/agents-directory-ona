@@ -1,0 +1,70 @@
+Home / Your Company
+
+Fellow
+Ari
+Maya
+Leo
+
+COMPANY · DATA ROOM
+
+Your Company
+
+Evidence, working assets, and the agents that can create what is missing.
+
+01
+Foundation
+02
+Brand
+03
+Agents
+04
+Growth
+05
+Finance
+06
+Operations
+
+PARTNERLANDSCAPE
+
+Partner landscape
+done
+
+gtm · BD & Partnerships
+
+CUSTOMERCASESTUDY
+
+Customer case study
+done
+
+gtm · Sales Enablement
+
+Updated by Case Study Composer · 16 Aug 2026, 13:02:30 UTC
+
+Matched: Case Study Composer Eve · GTM
+
+Eve session wrun_01M05AMNM9A29B6DD95GXF9PXQ
+
+Eve needs more detail to finish this — no way to reply yet in this prototype.
+
+Great—let’s turn your pilot into a **sales-ready case study**.
+
+Before I draft it, reply with whatever you have for these (bullets are fine; use “confidential” if needed):
+
+1) **Customer/company name** (or “Confidential”):  
+2) **Pilot dates + duration**:  
+3) **Pilot scope**: teams involved + **# users/seats** (+ regions if relevant):  
+4) **Before (pain/challenge)**: what was broken, costly, slow, risky?  
+5) **What you deployed**: main features/config/integrations + time-to-value (if known):  
+6) **Results**: baseline vs end metrics if you have them (time saved, adoption, error reduction, conversion, cost, performance, etc.). If you don’t have numbers, list **3–5 outcomes** you observed.  
+7) **Quotes**: any customer wording you can use (even rough / paraphrased):  
+8) **Desired asset format**: 1-page PDF, blog, or slides? (and target length):  
+9) **CTA goal**: book a demo, start a pilot, or contact sales?
+
+Once you paste your pilot notes, I’ll convert them into a **structured case study brief** and then draft the **full case study copy + page/slide layout** with placeholders for any missing metrics.
+
+PMFEVIDENCE
+
+PMF evidence
+done
+
+product · Product Market Fit

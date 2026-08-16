@@ -24,7 +24,7 @@ function messageForGap(label: string, contextNote?: string) {
     return "help me turn this pilot into a case study";
   }
   if (label === "Customer Discovery") {
-    return "synthesize these customer interview notes";
+    return `synthesize these customer interview notes:\n\n${PLACEHOLDER_NOTES}`;
   }
   return contextNote ? `I need a ${label.toLowerCase()} ${contextNote}.` : `I need a ${label.toLowerCase()}.`;
 }

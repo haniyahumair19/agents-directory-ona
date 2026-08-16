@@ -1,0 +1,128 @@
+Home / Your Company
+
+Fellow
+Ari
+Maya
+Leo
+
+COMPANY · DATA ROOM
+
+Your Company
+
+Evidence, working assets, and the agents that can create what is missing.
+
+01
+Foundation
+02
+Brand
+03
+Agents
+04
+Growth
+05
+Finance
+06
+Operations
+
+MESSAGINGARCHITECTURE
+
+Messaging architecture
+missing
+
+gtm · Marketing & Comms
+
+CUSTOMERDISCOVERY
+
+Customer Discovery
+done
+
+product · Customer Discovery
+
+Updated by Interview Synth · 16 Aug 2026, 13:01:33 UTC
+
+Matched: Interview Synth Eve · Product
+
+Eve session wrun_01M05AJT3FTP0GTZV5SN6K8KR8
+
+## Interview synthesis (Dashboard: reduce manual dispatch exceptions)
+
+### 1) Participant & context
+- **Role:** Head of Ops, mid-market logistics company
+- **Primary job-to-be-done:** **Reduce manual dispatch exceptions**
+- **Current workflow (workaround):** **Slack + Excel** used to coordinate exception handling and status updates
+
+### 2) Core pain points & impact
+- **Pain mechanism:** **Spreadsheet handoffs** (manual coordination points)
+- **Operational impact:** ~**4 hours/week** lost to handling exceptions
+- **Service impact:** **missed SLAs** driven by exception resolution delays / late detection
+
+### 3) Buying signal & internal tension
+- **Buying signal:** explicitly asked for **a 30-day pilot price**
+- **Tension to accommodate in the product/story:**
+  - **Ops:** wants **speed** (faster exception turnaround / triage)
+  - **Finance:** wants **ROI proof** (quantifiable time saved + SLA improvement / cost impact)
+
+---
+
+## Key insights & hypotheses (what’s likely causing exceptions)
+1. **Handoff errors/versioning issues (Hypothesis):** Excel-driven transfers likely cause missing/incorrect fields or stale data to propagate, later surfacing as dispatch exceptions.
+2. **Late detection (Hypothesis):** If humans check spreadsheets to discover issues, exceptions are probably found **after** they’re already operationally costly.
+3. **No single source of truth (Hypothesis):** Excel + Slack functioning together implies data is fragmented, making reconciliation/manual verification necessary.
+4. **Metrics gap (Hypothesis):** Ops likely tracks issues operationally, but Finance requires finance-native metrics—so value proof currently needs manual estimation.
+
+---
+
+## User needs / requirements for the dashboard (MVP-shaped)
+### Must-have metrics (for ops + finance)
+- **Exception volume** (count and/or rate)
+- **Time-to-resolve**
+- **SLA compliance impact** (on-time % and/or missed SLA count attributable to exceptions)
+- **Exception categories/types** (to target root causes)
+
+### Must-have workflows
+- **Unified exceptions board:** open → in-progress → resolved, with owner/routing and severity/SLA risk
+- **Triage + root-cause drill-down:** filter by exception type/category and see what happened leading up to it
+- **Ops snapshot:** what needs attention today + what’s trending
+
+### Alerting / integration expectations (based on current workaround)
+- **Slack-native alerting** for new exceptions and/or “unresolved too long” items
+- **Excel replacement or ingestion** (either migrate data or ingest feeds so teams don’t double-enter)
+
+---
+
+## Product discovery / validation opportunities (what to confirm next)
+- **Exception taxonomy:** what are the top exception types, and which are most costly?
+- **Where exceptions originate:** which step of the workflow (planning → handoff → dispatch execution → confirmation)?
+- **What failure mode dominates:** missing data, wrong mapping, stale info, delayed updates, lack of reconciliation?
+- **What constitutes “success” today:** how they currently measure exceptions and SLA misses; can they provide baseline data for 30 days?
+- **Adoption constraints:** who will use the dashboard daily, and how (Slack alerts vs dashboard review)?
+
+---
+
+## MVP feature set + 30-day pilot success metrics
+### MVP features
+1. **Exceptions Board** (filter/sort by severity & unresolved age)
+2. **SLA Impact KPIs** (exception rate, time-to-resolve trend, on-time/missed SLA signals)
+3. **Root-cause tagging** (manual initially; structured categories for reporting)
+4. **Slack alerts** (new exception + high SLA-risk / threshold-based escalation)
+5. **Daily ops summary view**
+6. **Pilot ROI report view** (finance-ready output: time saved + SLA impact estimates/deltas)
+
+### Pilot success metrics (define with them during onboarding)
+- **Reduce manual exception handling time** (anchor: **~4 hrs/week baseline**)
+- **Reduce exception count/rate**
+- **Reduce time-to-resolve** (median and/or percentile)
+- **Improve SLA adherence** (on-time % and/or missed SLA count)
+- **Adoption:** % of exceptions surfaced via dashboard and resolved through the workflow (plus alert ack/resolution behavior)
+- **Finance deliverable:** a quantified **ROI proof narrative within 30 days**
+
+PITCHDECK
+
+Pitch deck
+missing
+
+investments · Narrative & Model
+
+Matched: Deck Drafter Eve · Investments
+
+Generate it

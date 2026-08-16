@@ -1,0 +1,139 @@
+Home / Your Company
+
+Fellow
+Ari
+Maya
+Leo
+
+COMPANY · DATA ROOM
+
+Your Company
+
+Evidence, working assets, and the agents that can create what is missing.
+
+01
+Foundation
+02
+Brand
+03
+Agents
+04
+Growth
+05
+Finance
+06
+Operations
+
+MESSAGINGARCHITECTURE
+
+Messaging architecture
+missing
+
+gtm · Marketing & Comms
+
+CUSTOMERDISCOVERY
+
+Customer Discovery
+done
+
+product · Customer Discovery
+
+Updated by Interview Synth · 16 Aug 2026, 13:06:34 UTC
+
+Matched: Interview Synth Eve · Product
+
+PITCHDECK
+
+Pitch deck
+done
+
+investments · Narrative & Model
+
+Updated by Deck Drafter · 16 Aug 2026, 13:27:31 UTC
+
+Matched: Deck Drafter Eve · Investments
+
+Eve session wrun_01M05C2C8WSTWT4M2BWVAYYEH3
+
+Eve needs more detail to finish this — no way to reply yet in this prototype.
+
+Below is a **Greylock-appropriate pitch deck outline** you can use to draft quickly (outline only, not full copy).  
+
+## Pitch Deck (12–14 slides)
+
+1) **Title / One-liner**  
+- Company, logo, founder names  
+- One-sentence value prop: *[Company] helps [customer] achieve [outcome] by [how]*
+
+2) **Problem**  
+- 2–4 bullets on pain (who, frequency, cost)  
+- 1–2 crisp evidence points (metric or story)  
+
+3) **Solution (High-level)**  
+- 3–5 outcome bullets (avoid features)  
+- Simple diagram: *problem → your system → measurable output*  
+- “Today vs Next” roadmap (1 line)
+
+4) **Why Now**  
+- 2–3 tailwinds (tech/regulatory/buyer behavior/distribution shifts)  
+- Why incumbents can’t respond fast
+
+5) **Product / Workflow**  
+- 1–2 screenshots or workflow mock  
+- 3 core capabilities tied directly to the problem
+
+6) **Market (TAM/SAM/SOM + wedge)**  
+- Market sizing ranges + method placeholders  
+- Your wedge segment (ICP) and expansion path
+
+7) **Traction (Proof + momentum)**  
+- Pick the best 4–8: ARR/revenue & growth, customers, retention/churn/cohorts, usage, pipeline, conversion, LOIs/pilot→paid, notable logos
+
+8) **Business Model**  
+- Pricing model (seat/usage/subscription tiers)  
+- Directional ACV/ARPA, gross margin direction  
+- Sales motion (PLG vs sales-led) at a glance
+
+9) **Go-to-Market (brief but specific)**  
+- ICP definition  
+- Channels working today + funnel metrics placeholders  
+- How you’ll scale distribution (2–3 bullets)
+
+10) **Competition / Differentiation (“Why you”)**  
+- Table: incumbents/alternatives + why they lose  
+- 3–5 differentiation points mapped to buyer pain  
+- Defensibility/moat type (data/workflow lock-in/network effects/etc.)
+
+11) **Moat + Why This Team Wins**  
+- 2–3 moat pillars  
+- Compounding mechanism  
+- Key risks + mitigations (light touch)
+
+12) **Team**  
+- 4–6 bullets: roles + prior wins  
+- Advisors only if truly relevant  
+- “Why we can execute” line
+
+13) **The Ask (Funding request + use of funds)**  
+- Round type and **$X** (placeholder)  
+- Use of funds (3–6 buckets with %): product, GTM, hiring, ops/partnerships/compliance, runway/milestones  
+- Milestones tied to spend (next 12–18 months)
+
+14) **Financials / Key metrics dashboard (lean)**  
+- 3-year summary (ranges + assumptions): revenue/ARR, growth, burn/runway  
+- Directional CAC/payback, LTV/retention, churn  
+- “If assumptions hold, what changes” (1 bullet)
+
+*(Optional: If you’re later-stage and need it, you can add a governance/board/rights slide—otherwise keep the deck to 12–14.)*
+
+---
+
+### Quick question (so I can tighten this for your exact Greylock meeting)
+Reply with these 5 items (short answers are fine):
+1) Stage + round (Seed/Series A/etc.) and **target raise $**  
+2) 1-sentence category + customer (ICP)  
+3) Your product in one workflow sentence  
+4) Traction (pick 3–6 metrics you can share): ARR/rev, growth %, retention/churn, customers, usage, pipeline, pilot→paid  
+5) Any current deck (how many slides, or “no deck yet”)
+
+Once I have that, I can tailor the outline (e.g., what to cut/combine for a Greylock next-week call).

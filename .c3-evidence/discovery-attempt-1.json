@@ -1,0 +1,22 @@
+{
+  "rec": {
+    "i": 1,
+    "sessionId": "wrun_01M05AJ6AY2ZWPQ127AC9X5P40",
+    "loaded": true,
+    "harness": "product",
+    "skills": [
+      "interview-synthesis"
+    ],
+    "cloudStatus": "done",
+    "lastUpdatedBy": "Interview Synth",
+    "synthesis": false
+  },
+  "evidence": {
+    "sessionId": "wrun_01M05AJ6AY2ZWPQ127AC9X5P40",
+    "harness": "product",
+    "childId": "wrun_01M05AJ9MNP824X5006XPX8MYK",
+    "skills": [
+      "interview-synthesis"
+    ]
+  }
+}

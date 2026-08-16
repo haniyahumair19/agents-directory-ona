@@ -1,0 +1,10 @@
+I routed this to the **product** harness to synthesize customer interview notes.
+
+However, the notes you provided appear to be **only a brief summary**, not the underlying interview text/transcripts. If you paste the raw notes/transcripts (or point me to where they are), I can produce a cleaner synthesis with:
+- evidence-backed themes,
+- stronger problem statements,
+- and **verbatim quotes** (if present).
+
+For now, I can only safely synthesize what’s in the recap: an Ops-led logistics persona focused on reducing **dispatch exceptions** caused by **spreadsheet handoffs**, losing ~**4 hours/week**, leading to **missed SLAs**, using **Slack + Excel**, with a **30-day pilot pricing** buying signal and **Ops vs Finance** tension (speed vs ROI proof).
+
+Paste the actual notes and I’ll redo the synthesis with higher fidelity.

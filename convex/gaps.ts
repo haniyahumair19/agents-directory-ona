@@ -73,3 +73,19 @@ export const markGapNeedsReview = mutation({
     return { gapId, status: "in_progress" as const };
   },
 });
+
+/** Test helper: reopen a single gap without reseeding the whole demo. */
+export const resetGapToMissing = mutation({
+  args: { gapId: v.id("gaps") },
+  handler: async (ctx, { gapId }) => {
+    const gap = await ctx.db.get(gapId);
+    if (!gap) throw new Error("A required gap could not be found.");
+    await ctx.db.patch(gapId, {
+      status: "missing",
+      lastUpdatedBy: undefined,
+      lastUpdatedAt: undefined,
+      sourceEngagementId: undefined,
+    });
+    return { gapId, status: "missing" as const };
+  },
+});

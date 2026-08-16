@@ -4,7 +4,7 @@ import { useMemo, useState } from "react";
 import { useMutation, useQuery } from "convex/react";
 import { api } from "../../convex/_generated/api";
 import type { Doc } from "../../convex/_generated/dataModel";
-import { SKILL_REVIEW_NOTE } from "@/lib/eve-skills";
+import { EVE_NEEDS_REPLY_NOTE, SKILL_REVIEW_NOTE, isClarifyingQuestion } from "@/lib/eve-skills";
 
 const companyTabs = ["Foundation", "Brand", "Agents", "Growth", "Finance", "Operations"] as const;
 const harnesses = [
@@ -115,11 +115,7 @@ export default function Home() {
 
     const reviewed: EveResult = { ...result, reviewNote: SKILL_REVIEW_NOTE };
     setEveResults((current) => ({ ...current, [gap._id]: reviewed }));
-    try {
-      await markNeedsReview({ gapId: gap._id });
-    } catch {
-      // Cloud may not have the new mutation yet; still refuse to mark done.
-    }
+    await markNeedsReview({ gapId: gap._id });
     setGenerateError(SKILL_REVIEW_NOTE);
     return false;
   }
@@ -371,7 +367,7 @@ function CompanyView({
               <p className="text-xs font-semibold uppercase tracking-wide text-stone-500">{gap.osFieldKey}</p>
               <h2 className="mt-2 text-lg font-semibold">{gap.label}</h2>
             </div>
-            <Status status={eveResults[gap._id]?.reviewNote && gap.status !== "done" ? "in_progress" : gap.status} />
+            <Status status={gap.status} />
           </div>
           <p className="mt-3 text-sm text-stone-600">{gap.harnessId} · {gap.subModuleId}</p>
           <UpdateMetadata gap={gap} />
@@ -401,6 +397,11 @@ function CompanyView({
               {eveResults[gap._id].reviewNote ? (
                 <p data-testid="eve-skill-review" className="mb-2 text-sm text-amber-800">
                   {eveResults[gap._id].reviewNote}
+                </p>
+              ) : null}
+              {eveResults[gap._id].skillLoaded && isClarifyingQuestion(eveResults[gap._id].message) ? (
+                <p data-testid="eve-needs-reply" className="mb-2 text-sm text-amber-800">
+                  {EVE_NEEDS_REPLY_NOTE}
                 </p>
               ) : null}
               <pre className="max-h-80 overflow-auto whitespace-pre-wrap rounded bg-stone-50 p-3 text-xs text-stone-700 ring-1 ring-stone-200">
